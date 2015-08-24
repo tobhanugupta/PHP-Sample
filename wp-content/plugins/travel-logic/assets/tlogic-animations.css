@@ -1,0 +1,22 @@
+.animate.ng-enter, 
+.animate.ng-leave { 
+    -webkit-transition: 300ms linear all;
+    -moz-transition: 300ms linear all;
+    -ms-transition: 300ms linear all;
+    -o-transition: 300ms linear all;
+    transition: 300ms linear all;
+    position: relative;
+    display: block;
+} 
+ 
+.animate.ng-leave.animate.ng-leave-active,
+.animate.ng-enter {
+    height: 0;
+    opacity: 0;
+}
+ 
+.animate.ng-enter.animate.ng-enter-active,
+.animate.ng-leave {
+    opacity: 1;
+    height: 100%;
+}

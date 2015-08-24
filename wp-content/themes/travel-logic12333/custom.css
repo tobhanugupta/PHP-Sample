@@ -1,0 +1,95 @@
+#header {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.container-fluid {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0!important;
+}
+.inner {
+    padding: 20px 10px;
+}
+img.top-destinations {
+    margin-bottom:10px;    
+}
+.prices {
+    margin-top: 37px;
+    text-align: right;
+}
+.results-header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 15px 10px 20px;
+}
+.results {
+    width: 100%;
+    float: left;
+    border-bottom: 1px dashed rgb(133, 130, 130);
+}
+.results:hover {
+    background: #F3F3F3;
+}
+.controllers {
+    height: 600px;
+}
+.hotel {
+   width: 97%; 
+}
+.hotel-discriptions {
+    padding: 10px 15px;  
+    width: 45%;
+    font-size: 12px;
+    line-height: 15px;
+}
+.result-imgs {
+    border-radius: 100px;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 9px #666;
+    margin-top: 30px;
+}
+.hotel-result-imgs {
+    text-align: center;
+    margin-top: 27%;
+}
+img.hotel-image {
+    margin: 10px 10px 10px 0;   
+}
+ul.hotel-imagethumb-list {
+    list-style: none;
+    float: left;
+    margin: 0px!important;
+}
+ul.hotel-imagethumb-list li {
+    float: left;
+    padding: 0 15px 15px 0;
+}
+ul.amenities {
+    display: inline-block;
+}
+ul.amenities li {
+    float: left;
+    padding-right: 30px;
+    color: rgb(133, 130, 130);
+}
+footer {
+    clear: both;
+}
+.inline {
+    display: inline!important;
+}
+.inline-block {
+    display: inline-block!important;
+}
+.input-margin {
+    margin: 5px;
+}
+.pricing-wrapper {
+    background: #fff;
+    border: 1px dotted #666;
+    padding: 15px 10px;
+    margin-left: 150px;
+}
+.bottom-spacing {
+    margin-bottom: 20px;
+}
